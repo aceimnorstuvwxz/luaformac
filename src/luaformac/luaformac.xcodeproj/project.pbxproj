@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B50061211AE7E4C000FBD2C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50061201AE7E4C000FBD2C1 /* main.cpp */; };
 		B50061631AE7E53B00FBD2C1 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B50061271AE7E53B00FBD2C1 /* lapi.c */; };
 		B50061641AE7E53B00FBD2C1 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B50061291AE7E53B00FBD2C1 /* lauxlib.c */; };
 		B50061651AE7E53B00FBD2C1 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = B500612B1AE7E53B00FBD2C1 /* lbaselib.c */; };
@@ -42,6 +41,7 @@
 		B50061821AE7E53B00FBD2C1 /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = B500615E1AE7E53B00FBD2C1 /* lutf8lib.c */; };
 		B50061831AE7E53B00FBD2C1 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = B500615F1AE7E53B00FBD2C1 /* lvm.c */; };
 		B50061841AE7E53B00FBD2C1 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = B50061611AE7E53B00FBD2C1 /* lzio.c */; };
+		B54EE12D1AE80D6E0070068C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B54EE12C1AE80D6E0070068C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		B500611D1AE7E4BF00FBD2C1 /* luaformac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = luaformac; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50061201AE7E4C000FBD2C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B50061271AE7E53B00FBD2C1 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lapi.c; path = ../../lapi.c; sourceTree = "<group>"; };
 		B50061281AE7E53B00FBD2C1 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lapi.h; path = ../../lapi.h; sourceTree = "<group>"; };
 		B50061291AE7E53B00FBD2C1 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lauxlib.c; path = ../../lauxlib.c; sourceTree = "<group>"; };
@@ -119,6 +118,7 @@
 		B50061601AE7E53B00FBD2C1 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lvm.h; path = ../../lvm.h; sourceTree = "<group>"; };
 		B50061611AE7E53B00FBD2C1 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzio.c; path = ../../lzio.c; sourceTree = "<group>"; };
 		B50061621AE7E53B00FBD2C1 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lzio.h; path = ../../lzio.h; sourceTree = "<group>"; };
+		B54EE12C1AE80D6E0070068C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +151,7 @@
 		B500611F1AE7E4BF00FBD2C1 /* luaformac */ = {
 			isa = PBXGroup;
 			children = (
+				B54EE12C1AE80D6E0070068C /* main.cpp */,
 				B50061271AE7E53B00FBD2C1 /* lapi.c */,
 				B50061281AE7E53B00FBD2C1 /* lapi.h */,
 				B50061291AE7E53B00FBD2C1 /* lauxlib.c */,
@@ -211,7 +212,6 @@
 				B50061601AE7E53B00FBD2C1 /* lvm.h */,
 				B50061611AE7E53B00FBD2C1 /* lzio.c */,
 				B50061621AE7E53B00FBD2C1 /* lzio.h */,
-				B50061201AE7E4C000FBD2C1 /* main.cpp */,
 			);
 			path = luaformac;
 			sourceTree = "<group>";
@@ -288,11 +288,11 @@
 				B500617D1AE7E53B00FBD2C1 /* ltable.c in Sources */,
 				B50061711AE7E53B00FBD2C1 /* liolib.c in Sources */,
 				B50061681AE7E53B00FBD2C1 /* lcorolib.c in Sources */,
-				B50061211AE7E4C000FBD2C1 /* main.cpp in Sources */,
 				B50061691AE7E53B00FBD2C1 /* lctype.c in Sources */,
 				B500617C1AE7E53B00FBD2C1 /* lstrlib.c in Sources */,
 				B500616F1AE7E53B00FBD2C1 /* lgc.c in Sources */,
 				B50061831AE7E53B00FBD2C1 /* lvm.c in Sources */,
+				B54EE12D1AE80D6E0070068C /* main.cpp in Sources */,
 				B50061801AE7E53B00FBD2C1 /* lua.c in Sources */,
 				B50061651AE7E53B00FBD2C1 /* lbaselib.c in Sources */,
 				B500616D1AE7E53B00FBD2C1 /* ldump.c in Sources */,
@@ -423,6 +423,7 @@
 				B50061261AE7E4C000FBD2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
